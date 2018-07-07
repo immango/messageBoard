@@ -1,14 +1,18 @@
-# message-board
+# message-board V3.0 2018-7-7
 
-留言板 php开发
+匿名留言板
 
-数据库建表 表项见sql代码
+使用：
 
-欢迎Star Fork 提建议
+1. clone该仓库
+2. 修改index.php以及comments.php文件，里面有两项内容代表链接数据库密码和数据库名，改成你自己的密码和数据库名
+3. 运行即可
 
-Demo地址:
+Demo地址:[http://eastsea.ac.cn/comments/](http://eastsea.ac.cn/comments/ "Demo")
 
-[http://eastsea.ac.cn/comments/](http://eastsea.ac.cn/comments/ "Demo")
+欢迎提建议，fork，stat.
+
+GPL.
 
 ---------------------------------
 更新日志
