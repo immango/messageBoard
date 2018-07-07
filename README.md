@@ -6,7 +6,8 @@
 
 1. clone该仓库
 2. 修改index.php以及comments.php文件，里面有两项内容代表链接数据库密码和数据库名，改成你自己的密码和数据库名
-3. 运行即可
+3. 按照sql文件创建相应表单
+4. 运行
 
 Demo地址:[http://eastsea.ac.cn/comments/](http://eastsea.ac.cn/comments/ "Demo")
 
