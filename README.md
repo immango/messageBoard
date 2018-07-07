@@ -9,7 +9,7 @@
 3. 按照sql文件创建相应表单
 4. 运行
 
-Demo地址:[http://eastsea.ac.cn/comments/](http://eastsea.ac.cn/comments/ "Demo")
+Demo地址:[https://www.eastsea.ac.cn/comments/](https://www.eastsea.ac.cn/comments/ "Demo")
 
 欢迎提建议，fork，stat.
 
