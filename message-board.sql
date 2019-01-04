@@ -1,8 +1,8 @@
-
+create database commentsDB;
+use commentsDB;
 create table comments(
-id int(10) not null auto_increment primary key,
-author varchar(25),
-ip varchar(25),
-comment varchar(150),
-datetime varchar(35)
-);
+id int not null primary key auto_increment,
+ip varchar(255) not null,
+author varchar(50),
+comment text not null,
+time text not null);
