@@ -1,4 +1,4 @@
-//异步发送表单数据并且更新留言板信息
+﻿//异步发送表单数据并且更新留言板信息
 function loadXMLDoc(){
 
 		//获取表单数据
@@ -19,6 +19,10 @@ function loadXMLDoc(){
         content = content.replace(/\//g,"*");
         content = content.replace(/www/g,"*");
         content = content.replace(/html/g,"*");
+        content = content.replace(/./g,"**");
+        content = content.replace(/。/g,"**");
+        author = author.replace(/./g,"**");
+        author = author.replace(/。/g,"**");
 
         //形成ajax异步POST方式数据
 		var data = "content=" + content + "&" + "author=" + author;
