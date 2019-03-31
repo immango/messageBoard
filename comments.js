@@ -19,9 +19,9 @@ function loadXMLDoc(){
         content = content.replace(/\//g,"*");
         content = content.replace(/www/g,"*");
         content = content.replace(/html/g,"*");
-        content = content.replace(/./g,"**");
+        content = content.replace(/\./g,"**");
         content = content.replace(/。/g,"**");
-        author = author.replace(/./g,"**");
+        author = author.replace(/\./g,"**");
         author = author.replace(/。/g,"**");
 
         //形成ajax异步POST方式数据

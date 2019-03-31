@@ -43,7 +43,7 @@ $rowCount = mysqli_num_rows($result);
 
 <form role="form" id="form" action="" style="font-size: 18px;">
 	<div class="form-group">
-		<textarea class="form-control" style="font-size: 18px;" rows="5" name="content" id="content" placeholder="Version4.0 留言不能为空：）" required="required"></textarea>
+		<textarea class="form-control" style="font-size: 18px;" rows="5" name="content" id="content" placeholder="Version4.1 留言不能为空：）" required="required"></textarea>
 		<input style="margin-top: 8px;margin-bottom: 8px;font-size: 18px;" type="text" name="author" class="form-control" placeholder="报上名来：）">
 
 		<input type="button" onclick="loadXMLDoc()" name="add" class="btn btn-success center-block" value="留言">
